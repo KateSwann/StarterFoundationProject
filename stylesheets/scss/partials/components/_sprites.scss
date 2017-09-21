@@ -1,0 +1,332 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$ache-name: 'ache';
+$ache-x: 114px;
+$ache-y: 146px;
+$ache-offset-x: -114px;
+$ache-offset-y: -146px;
+$ache-width: 57px;
+$ache-height: 54px;
+$ache-total-width: 339px;
+$ache-total-height: 272px;
+$ache-image: '../../images/icons/dest/spritesheet.png';
+$ache: (114px, 146px, -114px, -146px, 57px, 54px, 339px, 272px, '../../images/icons/dest/spritesheet.png', 'ache', );
+$acuity-test-result-name: 'acuity-test-result';
+$acuity-test-result-x: 180px;
+$acuity-test-result-y: 218px;
+$acuity-test-result-offset-x: -180px;
+$acuity-test-result-offset-y: -218px;
+$acuity-test-result-width: 60px;
+$acuity-test-result-height: 50px;
+$acuity-test-result-total-width: 339px;
+$acuity-test-result-total-height: 272px;
+$acuity-test-result-image: '../../images/icons/dest/spritesheet.png';
+$acuity-test-result: (180px, 218px, -180px, -218px, 60px, 50px, 339px, 272px, '../../images/icons/dest/spritesheet.png', 'acuity-test-result', );
+$articles-name: 'articles';
+$articles-x: 165px;
+$articles-y: 0px;
+$articles-offset-x: -165px;
+$articles-offset-y: 0px;
+$articles-width: 53px;
+$articles-height: 74px;
+$articles-total-width: 339px;
+$articles-total-height: 272px;
+$articles-image: '../../images/icons/dest/spritesheet.png';
+$articles: (165px, 0px, -165px, 0px, 53px, 74px, 339px, 272px, '../../images/icons/dest/spritesheet.png', 'articles', );
+$astigmatism-test-result-name: 'astigmatism-test-result';
+$astigmatism-test-result-x: 279px;
+$astigmatism-test-result-y: 156px;
+$astigmatism-test-result-offset-x: -279px;
+$astigmatism-test-result-offset-y: -156px;
+$astigmatism-test-result-width: 60px;
+$astigmatism-test-result-height: 50px;
+$astigmatism-test-result-total-width: 339px;
+$astigmatism-test-result-total-height: 272px;
+$astigmatism-test-result-image: '../../images/icons/dest/spritesheet.png';
+$astigmatism-test-result: (279px, 156px, -279px, -156px, 60px, 50px, 339px, 272px, '../../images/icons/dest/spritesheet.png', 'astigmatism-test-result', );
+$blurred-name: 'blurred';
+$blurred-x: 220px;
+$blurred-y: 56px;
+$blurred-offset-x: -220px;
+$blurred-offset-y: -56px;
+$blurred-width: 57px;
+$blurred-height: 54px;
+$blurred-total-width: 339px;
+$blurred-total-height: 272px;
+$blurred-image: '../../images/icons/dest/spritesheet.png';
+$blurred: (220px, 56px, -220px, -56px, 57px, 54px, 339px, 272px, '../../images/icons/dest/spritesheet.png', 'blurred', );
+$close-left-eye-small-name: 'close-left-eye-small';
+$close-left-eye-small-x: 165px;
+$close-left-eye-small-y: 76px;
+$close-left-eye-small-offset-x: -165px;
+$close-left-eye-small-offset-y: -76px;
+$close-left-eye-small-width: 43px;
+$close-left-eye-small-height: 33px;
+$close-left-eye-small-total-width: 339px;
+$close-left-eye-small-total-height: 272px;
+$close-left-eye-small-image: '../../images/icons/dest/spritesheet.png';
+$close-left-eye-small: (165px, 76px, -165px, -76px, 43px, 33px, 339px, 272px, '../../images/icons/dest/spritesheet.png', 'close-left-eye-small', );
+$close-left-eye-name: 'close-left-eye';
+$close-left-eye-x: 0px;
+$close-left-eye-y: 89px;
+$close-left-eye-offset-x: 0px;
+$close-left-eye-offset-y: -89px;
+$close-left-eye-width: 72px;
+$close-left-eye-height: 55px;
+$close-left-eye-total-width: 339px;
+$close-left-eye-total-height: 272px;
+$close-left-eye-image: '../../images/icons/dest/spritesheet.png';
+$close-left-eye: (0px, 89px, 0px, -89px, 72px, 55px, 339px, 272px, '../../images/icons/dest/spritesheet.png', 'close-left-eye', );
+$close-right-eye-small-name: 'close-right-eye-small';
+$close-right-eye-small-x: 220px;
+$close-right-eye-small-y: 168px;
+$close-right-eye-small-offset-x: -220px;
+$close-right-eye-small-offset-y: -168px;
+$close-right-eye-small-width: 43px;
+$close-right-eye-small-height: 33px;
+$close-right-eye-small-total-width: 339px;
+$close-right-eye-small-total-height: 272px;
+$close-right-eye-small-image: '../../images/icons/dest/spritesheet.png';
+$close-right-eye-small: (220px, 168px, -220px, -168px, 43px, 33px, 339px, 272px, '../../images/icons/dest/spritesheet.png', 'close-right-eye-small', );
+$close-right-eye-name: 'close-right-eye';
+$close-right-eye-x: 74px;
+$close-right-eye-y: 89px;
+$close-right-eye-offset-x: -74px;
+$close-right-eye-offset-y: -89px;
+$close-right-eye-width: 72px;
+$close-right-eye-height: 55px;
+$close-right-eye-total-width: 339px;
+$close-right-eye-total-height: 272px;
+$close-right-eye-image: '../../images/icons/dest/spritesheet.png';
+$close-right-eye: (74px, 89px, -74px, -89px, 72px, 55px, 339px, 272px, '../../images/icons/dest/spritesheet.png', 'close-right-eye', );
+$color-perception-test-result-name: 'color-perception-test-result';
+$color-perception-test-result-x: 279px;
+$color-perception-test-result-y: 104px;
+$color-perception-test-result-offset-x: -279px;
+$color-perception-test-result-offset-y: -104px;
+$color-perception-test-result-width: 60px;
+$color-perception-test-result-height: 50px;
+$color-perception-test-result-total-width: 339px;
+$color-perception-test-result-total-height: 272px;
+$color-perception-test-result-image: '../../images/icons/dest/spritesheet.png';
+$color-perception-test-result: (279px, 104px, -279px, -104px, 60px, 50px, 339px, 272px, '../../images/icons/dest/spritesheet.png', 'color-perception-test-result', );
+$contrast-test-result-name: 'contrast-test-result';
+$contrast-test-result-x: 279px;
+$contrast-test-result-y: 52px;
+$contrast-test-result-offset-x: -279px;
+$contrast-test-result-offset-y: -52px;
+$contrast-test-result-width: 60px;
+$contrast-test-result-height: 50px;
+$contrast-test-result-total-width: 339px;
+$contrast-test-result-total-height: 272px;
+$contrast-test-result-image: '../../images/icons/dest/spritesheet.png';
+$contrast-test-result: (279px, 52px, -279px, -52px, 60px, 50px, 339px, 272px, '../../images/icons/dest/spritesheet.png', 'contrast-test-result', );
+$diseases-name: 'diseases';
+$diseases-x: 110px;
+$diseases-y: 0px;
+$diseases-offset-x: -110px;
+$diseases-offset-y: 0px;
+$diseases-width: 53px;
+$diseases-height: 83px;
+$diseases-total-width: 339px;
+$diseases-total-height: 272px;
+$diseases-image: '../../images/icons/dest/spritesheet.png';
+$diseases: (110px, 0px, -110px, 0px, 53px, 83px, 339px, 272px, '../../images/icons/dest/spritesheet.png', 'diseases', );
+$dryness-test-result-name: 'dryness-test-result';
+$dryness-test-result-x: 118px;
+$dryness-test-result-y: 218px;
+$dryness-test-result-offset-x: -118px;
+$dryness-test-result-offset-y: -218px;
+$dryness-test-result-width: 60px;
+$dryness-test-result-height: 50px;
+$dryness-test-result-total-width: 339px;
+$dryness-test-result-total-height: 272px;
+$dryness-test-result-image: '../../images/icons/dest/spritesheet.png';
+$dryness-test-result: (118px, 218px, -118px, -218px, 60px, 50px, 339px, 272px, '../../images/icons/dest/spritesheet.png', 'dryness-test-result', );
+$dryness-name: 'dryness';
+$dryness-x: 59px;
+$dryness-y: 218px;
+$dryness-offset-x: -59px;
+$dryness-offset-y: -218px;
+$dryness-width: 57px;
+$dryness-height: 54px;
+$dryness-total-width: 339px;
+$dryness-total-height: 272px;
+$dryness-image: '../../images/icons/dest/spritesheet.png';
+$dryness: (59px, 218px, -59px, -218px, 57px, 54px, 339px, 272px, '../../images/icons/dest/spritesheet.png', 'dryness', );
+$irritation-name: 'irritation';
+$irritation-x: 0px;
+$irritation-y: 218px;
+$irritation-offset-x: 0px;
+$irritation-offset-y: -218px;
+$irritation-width: 57px;
+$irritation-height: 54px;
+$irritation-total-width: 339px;
+$irritation-total-height: 272px;
+$irritation-image: '../../images/icons/dest/spritesheet.png';
+$irritation: (0px, 218px, 0px, -218px, 57px, 54px, 339px, 272px, '../../images/icons/dest/spritesheet.png', 'irritation', );
+$lacrimation-name: 'lacrimation';
+$lacrimation-x: 220px;
+$lacrimation-y: 112px;
+$lacrimation-offset-x: -220px;
+$lacrimation-offset-y: -112px;
+$lacrimation-width: 57px;
+$lacrimation-height: 54px;
+$lacrimation-total-width: 339px;
+$lacrimation-total-height: 272px;
+$lacrimation-image: '../../images/icons/dest/spritesheet.png';
+$lacrimation: (220px, 112px, -220px, -112px, 57px, 54px, 339px, 272px, '../../images/icons/dest/spritesheet.png', 'lacrimation', );
+$myopia-test-result-name: 'myopia-test-result';
+$myopia-test-result-x: 279px;
+$myopia-test-result-y: 0px;
+$myopia-test-result-offset-x: -279px;
+$myopia-test-result-offset-y: 0px;
+$myopia-test-result-width: 60px;
+$myopia-test-result-height: 50px;
+$myopia-test-result-total-width: 339px;
+$myopia-test-result-total-height: 272px;
+$myopia-test-result-image: '../../images/icons/dest/spritesheet.png';
+$myopia-test-result: (279px, 0px, -279px, 0px, 60px, 50px, 339px, 272px, '../../images/icons/dest/spritesheet.png', 'myopia-test-result', );
+$oph-portal-name: 'oph-portal';
+$oph-portal-x: 0px;
+$oph-portal-y: 0px;
+$oph-portal-offset-x: 0px;
+$oph-portal-offset-y: 0px;
+$oph-portal-width: 53px;
+$oph-portal-height: 87px;
+$oph-portal-total-width: 339px;
+$oph-portal-total-height: 272px;
+$oph-portal-image: '../../images/icons/dest/spritesheet.png';
+$oph-portal: (0px, 0px, 0px, 0px, 53px, 87px, 339px, 272px, '../../images/icons/dest/spritesheet.png', 'oph-portal', );
+$photophobia-name: 'photophobia';
+$photophobia-x: 220px;
+$photophobia-y: 0px;
+$photophobia-offset-x: -220px;
+$photophobia-offset-y: 0px;
+$photophobia-width: 57px;
+$photophobia-height: 54px;
+$photophobia-total-width: 339px;
+$photophobia-total-height: 272px;
+$photophobia-image: '../../images/icons/dest/spritesheet.png';
+$photophobia: (220px, 0px, -220px, 0px, 57px, 54px, 339px, 272px, '../../images/icons/dest/spritesheet.png', 'photophobia', );
+$redness-name: 'redness';
+$redness-x: 55px;
+$redness-y: 146px;
+$redness-offset-x: -55px;
+$redness-offset-y: -146px;
+$redness-width: 57px;
+$redness-height: 54px;
+$redness-total-width: 339px;
+$redness-total-height: 272px;
+$redness-image: '../../images/icons/dest/spritesheet.png';
+$redness: (55px, 146px, -55px, -146px, 57px, 54px, 339px, 272px, '../../images/icons/dest/spritesheet.png', 'redness', );
+$solutions-name: 'solutions';
+$solutions-x: 0px;
+$solutions-y: 146px;
+$solutions-offset-x: 0px;
+$solutions-offset-y: -146px;
+$solutions-width: 53px;
+$solutions-height: 70px;
+$solutions-total-width: 339px;
+$solutions-total-height: 272px;
+$solutions-image: '../../images/icons/dest/spritesheet.png';
+$solutions: (0px, 146px, 0px, -146px, 53px, 70px, 339px, 272px, '../../images/icons/dest/spritesheet.png', 'solutions', );
+$symptoms-name: 'symptoms';
+$symptoms-x: 55px;
+$symptoms-y: 0px;
+$symptoms-offset-x: -55px;
+$symptoms-offset-y: 0px;
+$symptoms-width: 53px;
+$symptoms-height: 85px;
+$symptoms-total-width: 339px;
+$symptoms-total-height: 272px;
+$symptoms-image: '../../images/icons/dest/spritesheet.png';
+$symptoms: (55px, 0px, -55px, 0px, 53px, 85px, 339px, 272px, '../../images/icons/dest/spritesheet.png', 'symptoms', );
+$tests-name: 'tests';
+$tests-x: 279px;
+$tests-y: 208px;
+$tests-offset-x: -279px;
+$tests-offset-y: -208px;
+$tests-width: 53px;
+$tests-height: 56px;
+$tests-total-width: 339px;
+$tests-total-height: 272px;
+$tests-image: '../../images/icons/dest/spritesheet.png';
+$tests: (279px, 208px, -279px, -208px, 53px, 56px, 339px, 272px, '../../images/icons/dest/spritesheet.png', 'tests', );
+$spritesheet-width: 339px;
+$spritesheet-height: 272px;
+$spritesheet-image: '../../images/icons/dest/spritesheet.png';
+$spritesheet-sprites: ($ache, $acuity-test-result, $articles, $astigmatism-test-result, $blurred, $close-left-eye-small, $close-left-eye, $close-right-eye-small, $close-right-eye, $color-perception-test-result, $contrast-test-result, $diseases, $dryness-test-result, $dryness, $irritation, $lacrimation, $myopia-test-result, $oph-portal, $photophobia, $redness, $solutions, $symptoms, $tests, );
+$spritesheet: (339px, 272px, '../../images/icons/dest/spritesheet.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

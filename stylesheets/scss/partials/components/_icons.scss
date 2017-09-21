@@ -1,0 +1,31 @@
+/* ------------------ Sprites and icons ------------- */
+
+
+%common-sprite-styles {
+    // background-image: url(#{$spritesheet-image});
+
+    display: inline-block;
+    content: "";
+    vertical-align: middle;
+}
+
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .icon-#{$sprite-name}:before {
+      @include sprite($sprite);
+      @extend %common-sprite-styles;
+    }
+  }
+}
+
+@include sprites($spritesheet-sprites);
+
+[class*='icon-'].before-text:before {
+  vertical-align: -1px;
+  margin-right: 5px;
+}
+[class*='icon-'].before-text-centered:before {
+  vertical-align: middle;
+  margin-right: 5px;
+}
